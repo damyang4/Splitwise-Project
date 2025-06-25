@@ -1,0 +1,220 @@
+Feb 12, 2025 9:28:44 PM errorlogger.ErrorLogger logError
+SEVERE: Exception while processing selected channels
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:116)
+	at server.Server.handleClientRequest(Server.java:94)
+	at server.Server.processSelectedKeys(Server.java:84)
+	at server.Server.start(Server.java:58)
+	at server.Server.main(Server.java:150)
+
+Feb 12, 2025 11:54:35 PM errorlogger.ErrorLogger logError
+SEVERE: Exception while processing selected channels
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:116)
+	at server.Server.handleClientRequest(Server.java:94)
+	at server.Server.processSelectedKeys(Server.java:84)
+	at server.Server.start(Server.java:58)
+	at server.Server.main(Server.java:150)
+
+Feb 12, 2025 11:59:46 PM errorlogger.ErrorLogger logError
+SEVERE: Exception while processing selected channels
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:113)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:81)
+	at server.Server.start(Server.java:55)
+	at server.Server.main(Server.java:147)
+
+Feb 13, 2025 12:07:57 AM errorlogger.ErrorLogger logError
+SEVERE: Exception while processing selected channels
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:112)
+	at server.Server.handleClientRequest(Server.java:92)
+	at server.Server.processSelectedKeys(Server.java:82)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:150)
+
+Feb 13, 2025 12:15:31 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:113)
+	at server.Server.handleClientRequest(Server.java:92)
+	at server.Server.processSelectedKeys(Server.java:82)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:168)
+
+Feb 13, 2025 12:16:15 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:113)
+	at server.Server.handleClientRequest(Server.java:92)
+	at server.Server.processSelectedKeys(Server.java:82)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:168)
+
+Feb 13, 2025 12:33:16 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:120)
+	at server.Server.handleClientRequest(Server.java:92)
+	at server.Server.processSelectedKeys(Server.java:84)
+	at server.Server.start(Server.java:57)
+	at server.Server.main(Server.java:189)
+
+Feb 13, 2025 9:51:12 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 9:51:54 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 9:54:52 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 9:58:10 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 9:58:40 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 10:07:27 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 10:08:16 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 10:15:51 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
+Feb 13, 2025 10:16:11 AM errorlogger.ErrorLogger logError
+SEVERE: Error reading client input
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at server.Server.getClientInput(Server.java:119)
+	at server.Server.handleClientRequest(Server.java:91)
+	at server.Server.processSelectedKeys(Server.java:83)
+	at server.Server.start(Server.java:56)
+	at server.Server.main(Server.java:188)
+
